@@ -35,7 +35,7 @@
     margin-left: 10px;
 }
 .content {
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
 }
 .content_box {
@@ -52,12 +52,13 @@
 }
 .sidebar {
     height: 200px;
-    background: rgba(35,34,52,1);
-    
+    flex-direction: column;
 }
 
 .sidebar a {
+
     align-items: flex-end;
+    background: rgba(58,57,73, 1);
 }
 
 
