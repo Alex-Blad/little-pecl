@@ -1,31 +1,65 @@
 
-warp {
+
+.body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgba(35,34,52,1);
+}
+.warp {
+    width: 100%;
+    margin: 0 auto;
+}
+.heder {
+    display: flex;
+    background: rgba(58,57,73, 1);
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+}
+.heder_logo {
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+    display: flex;
+
+}
+.heder_top-menu a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px;
+    border: 2px solid red;
+    margin-left: 10px;
+}
+.content {
+    align-items: center;
+    justify-content: space-between;
+}
+.content_box {
+}
+.content_item {
+}
+.content_img {
+}
+.content_info {
+}
+.content_info-title {
+}
+.content_info-price {
+}
+.sidebar {
+    height: 200px;
+    background: rgba(35,34,52,1);
+    
 }
 
-header {
-    width: 80px;
+.sidebar a {
+    align-items: flex-end;
 }
 
-logo {
-}
 
-top_menu {
-}
-
-top_menu_a {
-}
-
-content {
-}
-
-box_menu {
-}
-
-sidebar {
-}
-
-sidebar_a {
-}
-
-footer {
+.footer {
 }
