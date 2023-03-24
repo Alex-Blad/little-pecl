@@ -17,13 +17,13 @@
     justify-content: space-between;
     align-items: center;
     border: 2px solid red;
+    height: 80px;
 }
 .heder_logo {
     border-radius: 50%;
     background: white;
     cursor: pointer;
     display: flex;
-
 }
 .heder_top-menu a {
     color: white;
@@ -35,30 +35,79 @@
     margin-left: 10px;
 }
 .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
     align-items: stretch;
-    justify-content: space-between;
+    align-content: stretch;
 }
 .content_box {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: stretch;
+
 }
 .content_item {
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: stretch;
 }
 .content_img {
 }
 .content_info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: stretch;
 }
 .content_info-title {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: stretch;
 }
 .content_info-price {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: stretch;
 }
 .sidebar {
-    height: 200px;
+    border: 2px solid blue;
+    color: white;
+    text-decoration: none;
+    width: 150px;
+    display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    align-content: stretch;
+    padding-left: 50px;
 }
 
 .sidebar a {
-
-    align-items: flex-end;
     background: rgba(58,57,73, 1);
+    border: 2px solid red;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15%;
+    margin-top: 10px;
 }
 
 
