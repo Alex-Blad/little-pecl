@@ -86,7 +86,6 @@
     display: flex;
     flex-direction: column;
 }
-
 .sidebar a {
     background: rgba(58,57,73, 1);
     color: white;
@@ -95,9 +94,4 @@
     border-radius: 5px;
     margin: 5px 10px;
     text-transform: uppercase;
-}
-
-
-.footer {
-    margin: auto;
 }
