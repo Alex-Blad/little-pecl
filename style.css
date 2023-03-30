@@ -38,6 +38,7 @@
 }
 .content {
     display: flex;
+    padding-top: 80px;
 }
 .content_box {
     flex-direction: column;
@@ -98,5 +99,5 @@
 
 
 .footer {
-
+    margin: auto;
 }
