@@ -40,6 +40,7 @@
 .content {
     display: flex;
     padding-top: 80px;
+    justify-content: space-between;
 }
 .content_box {
     flex-direction: column;
@@ -50,10 +51,11 @@
     margin: 15px;
     border-radius: 10px;
     display: flex;
-    overflow: hidden
+    overflow: hidden;
+    background: #ffffff;
 }
 .content_img {
-    width: 320px;
+    min-width: 320px;
     height: 240px;
 }
 .content_img img {
@@ -67,6 +69,7 @@
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .content_info-title {
     font-weight: 700;
@@ -83,6 +86,7 @@
     min-width: 200px;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
 }
 .sidebar a {
     background: #3a3949;
@@ -96,4 +100,14 @@
 }
 .sidebar a:hover {
     border: 1px solid #ffffff;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+
+}
+.footer {
+    color: #5e5e5e;
+    display: flex;
+    justify-content: center;
 }
